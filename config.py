@@ -26,8 +26,8 @@ DB_NAME = os.environ.get("DATABASE_NAME", "AdultElixir")
 
 TIME = int(os.environ.get("TIME", "3600"))
 USE_SHORTLINK = True if os.environ.get('USE_SHORTLINK', "TRUE") == "TRUE" else False 
-SHORTLINK_API_URL = os.environ.get("SHORTLINK_API_URL", "publicearn.com")
-SHORTLINK_API_KEY = os.environ.get("SHORTLINK_API_KEY", "15597af089977d7b56868867823be0b17c76d0f1")
+SHORTLINK_API_URL = os.environ.get("SHORTLINK_API_URL", "modijiurl.com")
+SHORTLINK_API_KEY = os.environ.get("SHORTLINK_API_KEY", "1f37e24233e5b28fc9dba3b11f6a2be6277ca186")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', "86400")) # Add time in seconds
 TUT_VID = os.environ.get("TUT_VID","https://t.me/Anime_Elixir/8")
 USE_PAYMENT = True if (os.environ.get("USE_PAYMENT", "FALSE") == "TRUE") & (USE_SHORTLINK) else False
